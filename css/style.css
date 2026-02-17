@@ -9276,13 +9276,15 @@ button.bg-dark:focus {
   }
 .countdown-container {
       gap: 1.5rem;
+      padding-left: 0.5em;
   }
+  
   .n2 { background: #cbb29a; margin-left: -8px; }
   .n3 { background: #d8c4ad; margin-left: -8px; }
   .n4 { background: #e6d4c2; margin-left: -8px; }
   .n5 { background: #f2e4d2; margin-left: -8px; }
 
-}
+} 
 
 @media (min-width: 410px) {
 .w-100-1 {
