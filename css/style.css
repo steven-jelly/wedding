@@ -9206,6 +9206,70 @@ button.bg-dark:focus {
   text-align: center !important;
 }
 
+/* Color Palette */
+    .palette {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin: 20px 0 30px;
+      flex-wrap: wrap;
+    }
+
+    .color-box {
+      width: 60px;
+      height: 60px;
+      border-radius: 4px;
+    }
+
+    /* Example colors based on image */
+    .green { background: #6f7f5e; }
+    .sage { background: #b8c1a8; }
+    .maroon { background: #5a1f1f; }
+    .rust { background: #a44a2c; }
+    .gold { background: #d6a441; }
+    .orange { background: #c9742b; }
+    .wine { background: #7a2c2c; }
+
+    /* Sponsors */
+    .sponsors {
+      margin-top: 30px;
+    }
+
+    .sponsor-text {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .ladies, .gentlemen {
+      font-style: italic;
+    }
+
+    /* Neutral tones */
+    .neutrals {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .neutral {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+
+    .n1 { background: #b89a7f; }
+    .n2 { background: #cbb29a; }
+    .n3 { background: #d8c4ad; }
+    .n4 { background: #e6d4c2; }
+    .n5 { background: #f2e4d2; }
+
+    .attire {
+      width: 300px;
+      margin-bottom: 1em;
+    }
+
 @media (min-width: 375px) {
 .w-100-1 {
     width: 200% !important;
@@ -9213,6 +9277,19 @@ button.bg-dark:focus {
 .countdown-container {
       gap: 1.5rem;
   }
+}
+
+@media (min-width: 410px) {
+.w-100-1 {
+    width: 200% !important;
+  }
+.countdown-container {
+      gap: 2.5rem;
+  }
+    .n2 { background: #cbb29a; margin-left: -5px; }
+    .n3 { background: #d8c4ad; margin-left: -5px; }
+    .n4 { background: #e6d4c2; margin-left: -5px; }
+    .n5 { background: #f2e4d2; margin-left: -5px; }
 }
 
 @media (min-width: 576px) {
